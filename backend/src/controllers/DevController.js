@@ -4,6 +4,7 @@ const Dev = require('../models/Dev');
 module.exports = {
   async store(req, res) {
     const { username } = req.body;
+
     const userExists = await Dev.findOne({ user: username });
 
     if (userExists) {
