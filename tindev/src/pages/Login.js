@@ -8,8 +8,8 @@ import {
   TouchableOpacity,
   Platform
 } from 'react-native';
-import Logo from '../assets/logo.png';
-import { platform } from 'os';
+
+import logo from '../assets/logo.png';
 
 export default function Login() {
   return (
@@ -20,6 +20,8 @@ export default function Login() {
     >
       <Image source={logo} />
       <TextInput
+        autoCapitalize="none"
+        autoCorrect={false}
         placeholder="Digite seu usuário no Github"
         placeholderTextColor="#999"
         style={styles.input}
