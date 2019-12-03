@@ -1,6 +1,6 @@
 # Tindev
 
-Tindev is a Tinder-like app, but for developers using the GitHub api, Nodejs, ReactJS e React Native
+Tindev is a Tinder app, but for developers using the GitHub api, Nodejs, ReactJS e React Native
 
 ### Demo
 
